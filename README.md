@@ -75,6 +75,8 @@ Settings used: Logistic Regression (C=0.5, balanced class weights), Decision Tre
 
 ## How to run
 ```
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 python train_models.py        # trains, saves models to model/, writes test_data.csv
 streamlit run app.py
